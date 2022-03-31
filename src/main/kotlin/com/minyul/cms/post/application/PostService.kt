@@ -7,6 +7,11 @@ class PostService {
 
     fun findPost(postId: String): String {
 
-        return "test";
+        return "get"
+    }
+
+    fun createPost(): String {
+
+        return "create"
     }
 }
